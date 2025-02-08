@@ -44,7 +44,8 @@ Ensure that ROS2 and the required Zenoh packages are installed on your system. F
 
 ```bash
 sudo apt update
-sudo apt install ros-foxy-<package_name>
+sudo apt install ros-humble-<package_name>
+sudo apt install ros-humble-rmw*
 ```
 
 For Zenoh, please refer to the official documentation: [Zenoh Installation](https://zenoh.io)
